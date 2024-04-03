@@ -1,0 +1,13 @@
+/* Tu CSS existente aquí */
+
+footer {
+    text-align: center;
+    background-color: lightblue; /* Cambia al color de fondo deseado */
+    padding: 20px;
+}
+
+footer img {
+    border-radius: 50%; /* Para hacer los bordes redondos */
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: 100px; /* Ajusta el tamaño según sea necesario */
+}

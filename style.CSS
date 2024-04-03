@@ -6,26 +6,46 @@ body {
 
 header {
     background-color: whitesmoke;
-    color: black;
-    padding: 10px;
+    color: rgb(255, 255, 255);
+    padding: 50px;
     text-align: center;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background-color: black;
+.profile-cards {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap; /* Permitir el ajuste de línea */
+    justify-content: center;
+    gap: 50px;
+    background-image: url('data.png'); /* Ruta de la imagen de fondo */
 }
 
-nav ul li {
-    margin: 0 10px;
+.nav-links{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+}
+.navbar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
-nav ul li a {
-    color: white;
+.nav-links li{
+    margin-right: 20px;
+}
+ 
+.nav-links li a{
+    color: #fff;
     text-decoration: none;
 }
 
@@ -33,6 +53,10 @@ nav ul li a {
     width: 90%;
     margin: 0 auto;
     padding: 20px;
+    align-items:left;
+}
+.container p{
+    align-items: right;
 }
 
 .tarjeta {
@@ -40,14 +64,14 @@ nav ul li a {
     color: rgb(255, 255, 255);
     background-color: rgb(169, 230, 244);
     display: inline-block;
-    width: 30%; /* Adjust as needed */
-    margin: 20px 10px; /* Adjust as needed */
+    width: 30%; 
+    margin: 20px 10px; 
 }
-
 .tarjeta img {
     width: 100%;
+    border-radius: 10%;
 }
-
+/*CONTACTO*/
 .contact-info {
     text-align: center;
 }
@@ -66,3 +90,15 @@ nav ul li a {
     width: 30px;
     height: 30px;
 }
+footer {
+    text-align: center;
+    background-color: lightblue; /* Cambia al color de fondo deseado */
+    padding: 20px;
+}
+
+footer img {
+    border-radius: 50%; /* Para hacer los bordes redondos */
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: 100px; /* Ajusta el tamaño según sea necesario */
+}
+
